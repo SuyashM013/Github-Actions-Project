@@ -9,7 +9,6 @@ on:
 
 jobs:
     build:
-
         runs-on: ubuntu-latest
 
         strategy:
@@ -28,4 +27,3 @@ jobs:
 
             - name: Build project
               run: npm run build
-              
