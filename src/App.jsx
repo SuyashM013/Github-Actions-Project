@@ -49,9 +49,16 @@ function App() {
             <Route path="/" element={<Welcome  />} />
             
             {/* Authentication Routes */}
+
+
+
             {/* <Route path="/login" element={<Login />} /> */}
-            <Route path="/login" element={<Home />} />
             {/* <Route path="/register" element={<Register />} /> */}
+
+
+
+            <Route path="/login" element={<Home />} />     
+            {/* Temporary redirect for testing */}
             
             {/* Protected Routes */}
             <Route 
