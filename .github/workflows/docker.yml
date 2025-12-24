@@ -19,6 +19,6 @@ jobs:
               run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
             - name: Push Docker image to Docker Hub
-              run: docker push Suyashmishra013/kidsle-app:latest
+              run: docker push suyashmishra013/kidsle-cicd:latest
             
               
